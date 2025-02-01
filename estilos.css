@@ -1,0 +1,369 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+*{
+    font-family: "Raleway", sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+   header{
+    background: url(./Imagenes/fondo.jpg) 50% 0 fixed ;
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+   
+   }
+   #header0{
+    background-image: url(./Imagenes/fondo.jpg) 50% 0 fixed;
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+   }
+   #header2{
+    background-image: url(./Imagenes/historia-programacion.jpg)  ;
+    position: relative;
+    height: 70vh;
+   }
+   #header3{
+    background-image: url(./Imagenes/img2.jpg)  ;
+    position: relative;
+    height: 70vh;
+   }
+   
+nav {
+    padding: 40px;
+    align-items: center;
+    position: fixed;
+    display: flex;
+    width: 100%;
+    top: 0%;
+    justify-content:space-between ;
+    z-index: 4;
+transition: background-color 1s;
+}
+.fondoNav{
+    background-color: #FFFFFF;
+
+}
+.fondoNav>ul>li>a{
+    color: #2F3645;
+    text-shadow: 1px 1px white, 2px 3px gray;
+}
+.menu{
+    display: flex;
+    width: 300px;
+    justify-content: space-around;
+}
+.menuitems{ list-style-type: none;}
+.menuitem:hover{
+    transform: translate(3px, 2px);
+}
+.menuitem:hover > .linkitem{
+    text-shadow:0.5px 0.5px  #2F3645;
+}
+.linkitem{ font-family: "Raleway", sans-serif;
+    color: #FFFFFF;
+    font-weight: 500;
+    font-size: 1.5em;
+    text-decoration: none;
+    text-shadow: 1px 1px gray, 2px 3px black;
+
+}
+
+   .Titulo1{
+    text-align: center; }
+
+   h1{
+    font-family: "Raleway", sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-weight: 400;
+    font-size: calc(3em + 18px); 
+    color: #eeeeee;
+    text-shadow: 2px 2px #808080, 6px 6px black;
+    text-align: center;
+    }
+    
+    h2{
+        font-family: "Raleway", sans-serif;
+        text-shadow: 1px 1px white,2px 2px gray ;
+        font-size:calc(2em + 18px) ; 
+        font-weight: 500;
+        text-align: center;
+        color: #2F3645;
+        
+    }
+    main{ padding: 10% }
+
+
+.contenedor{
+    margin: 100px 30px;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    gap: 20px;}
+.cuadro{
+width: 450px;
+height: 500px;
+gap: 40px;
+
+display: flex;
+flex-direction: column;
+justify-content: space-between;
+align-items: center;
+position: relative;
+}
+.cuadro1{ left: 700px;
+top: -490px}
+
+.imgcuadro{ 
+   width: 100%;
+  margin: 0%;
+}
+
+.pcuadro{ 
+    width: 100%;
+    height: 35px;
+    text-align: center;
+    color:#2F3645;
+    font-family: "Raleway", sans-serif;
+font-size: 18px;
+
+}
+
+.botonir{
+    font-family: "Raleway", sans-serif;
+    font-size: 15%;
+    box-sizing: border-box;
+    padding: 10px;
+   background-color: #2F3645;
+    padding: 10px ;
+   
+   text-align: center;
+   text-transform: uppercase;
+    text-decoration: none;
+    color:#FFFFFF ;
+    width: 80%;
+    margin-bottom: 20px;
+    margin: 0;
+
+}
+.boton-ir:active{
+    
+    box-shadow: 0px 0px darkgray;
+    transform: translate(3px, 2px);
+}
+
+.imgfooter{
+    height: 80px;
+}
+footer{
+    background-color: #2F3645;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding:  90px;
+    color: #f5f5f5;
+}
+
+.divfooter{
+ display: flex;
+ justify-content: space-between;
+ width:300px;
+ height: 60px;
+ 
+}
+
+.titulofoot{
+    font-size: 14px;
+}
+/*HISTORIA*/
+.contenedor2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 80px;
+}
+.contendorhistoria{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding:80px 50px;
+    gap: 20px;    
+ }
+ .contendorhistoria>img{ width: 50%;}
+ .contenedorhistoria1{
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+
+  }
+.contenedorvideo{ 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 100px 0px;
+    gap: 80px;
+}
+.contvideo{ 
+    padding: 5px;
+    width: 70%;
+    background-color: #2F3645;
+}
+.divbotones{ 
+    background-color:#2F3645 ;
+    border-radius: 10px;
+    padding: 20px 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.botonera{ 
+    display: flex;
+    gap: 20px;
+}
+#play,#pause {
+    width: 80px;
+ }
+ .botones:active{
+    box-shadow: 0px 0px darkgray;
+    transform: translate(3px, 2px);
+}
+#showTime{
+   
+    padding-right: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+
+}
+
+/*JUEGO*/
+.juego{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+ }
+ .frascos{
+    display: flex;
+ |  flex-direction: column;
+    align-items: center;
+margin-top: 100px;}
+.frasco{  
+    width: 275px;
+    height: 400px;
+    display: flex;
+    border: 2px solid black;
+    background-color: grey;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+.frasco:hover{
+    background-color: #1d1d1d;
+    
+}
+.frasco:hover>p{
+    color: #FFFFFF;
+}
+
+#imagen1,#imagen2,#imagen3{
+    width: 275px;
+    height: 400px;
+}
+
+#frascoimagenes{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    margin: 40px;
+}
+.reinicio{
+    display: flex;
+    margin: auto;
+    padding: 10px 100px;
+    border: none;
+    border-radius: 0px;
+    background-color:#2F3645 ;
+    color: #FFFFFF;
+    text-transform: uppercase;
+    font-weight: 300;
+}
+.mon1{
+    animation: part_1 ease-in 5s  ;
+    animation-iteration-count:1 ;
+    }
+    
+.mon2{
+animation: part_2 ease-in 5s  ;
+animation-iteration-count:1 ;
+}
+line.codigo{
+    animation-name: showCode;
+    animation-delay: 2s;
+    animation-duration: 2s;
+    animation-fill-mode: forwards;
+}
+@keyframes part_1{
+    0% {
+    transform: translate(0,-10px);
+    opacity:0;}
+    20% {
+    transform: translate(0,-10px);
+    opacity:0;}
+    30% {
+    transform: translate(0,0);
+    opacity:1;}
+    90% {
+    transform: translate(0,0);
+    opacity:1;}
+    
+    100% {
+        transform: translate(0,0);
+        opacity:1;}
+}   
+    
+
+@keyframes part_2 {
+    0% {
+        transform: translate(0,-10px);
+        opacity:0;}
+        30% {
+        transform: translate(0,-10px);
+        opacity:0;}
+        40% {
+        transform: translate(0,0);
+        opacity:1;}
+        90% {
+        transform: translate(0,0);
+        opacity:1;}
+
+        100% {
+            transform:translate(0,0);
+            opacity:1;}
+        } 
+        
+@keyframes showCode {
+    from{
+        stroke: transparent;
+    }
+    to{
+        stroke: green;
+    }
+    
+}
+    /*{ }
+    */

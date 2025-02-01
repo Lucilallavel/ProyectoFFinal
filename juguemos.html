@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilos.css">
+    <title>Proyecto Final</title>
+</head>
+<body>
+    <nav>
+        <a href="./index.html">
+    <svg width="200" height="90">
+        <rect x="45" y="5" width="80" height="50" class="mon1" fill="#767a81de" stroke="#2F3645" stroke-width="2"></rect>
+        <rect x="50" y="10" width="70" height="40" class="mon2" fill="#000000" stroke="#2F3645" stroke-width="2"></rect>
+        <rect x="75" y="55" width="20" height="10" class="mon1" fill="#767a81de" strok="#2F3645" stroke-width="2"></rect>
+        <polygon points="50 70,120 70 ,130 80,40 80" fill="#767a81de" strok="#2F3645" stroke-width="2" class="mon1" stroke="#2F3645"></polygon>
+        <polygon points="55 72,115 72  ,122 78,48 78" fill="#000000" class="mon2" stroke="#2F3645"></polygon>
+        <line x1="55" y1="19" x2="100" y2="19" stroke="transparent" stroke-width="3" class="codigo"></line>
+        <line x1="55" y1="24" x2="100" y2="24" stroke="transparent" stroke-width="3" class="codigo"></line>
+        <line x1="55" y1="29" x2="70" y2="29" stroke="transparent" stroke-width="3" class="codigo"></line>
+        <line x1="55" y1="33" x2="115" y2="33" stroke="transparent" stroke-width="3" class="codigo"></line>
+        <line x1="55" y1="38" x2="115" y2="38" stroke="transparent" stroke-width="3" class="codigo"></line>
+    </svg>
+        </a>
+        <ul class="menu">
+            <li class="menuitems" ><a class="linkitem" href="./historia.html">HISTORIA</a></li>
+            <li class="menuitems"><a class="linkitem" href="./juguemos.html">JUGUEMOS</a></li>
+    </ul>
+    </nav>
+    <header id="header2">
+        <h1>JUGUEMOS UN POCO</h1>
+    </header>
+    <main><h2>Armemos el rompecabezas y veamos que imagen es...</h2>
+        <section class="juego">
+            <div class="frascos" >
+                <div class="frasco" id="soltar">
+                    <p>Arrastre y suelte la imágene aquí</p>
+                </div>
+                <div class="frasco" id="soltar2">
+                    <p>Arrastre y suelte la imágene aquí</p>
+                </div>
+                <div class="frasco" id="soltar3">
+                    <p>Arrastre y suelte la imágene aquí</p>
+                </div>
+            </div>
+            <div id="frascoimagenes" >
+                <img id="imagen1" src="./Imagenes/Rompe2.png" alt="imagenrompecabezas" />
+                <img id="imagen2" src="./Imagenes/rompe3.png" alt="imagenrompecabezas" />
+                <img id="imagen3" src="./Imagenes/Rompe1.png" alt="imagenrompecabezas" />
+            </div>
+        </section>
+        <button onclick="reinicio()" class="botones reinicio">REINICIAR</button>
+    </main>
+    <footer><div class="divfooter">
+        <img class="imgfooter" src="./Imagenes/logo.png" alt="">
+        <h3 class="Titulo1 titulofoot" >PROGRAMACIÓN
+            <BR>
+            E 
+            <BR>
+            HISTORIA
+        </h3>
+    </div>
+    <DIV> <P>Sitio creado con fines educativos por Lucila Llavel</P></DIV></footer>
+    <script src="./scriptjuego.js"></script>
+</body>
+</html>
